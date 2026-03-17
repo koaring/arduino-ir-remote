@@ -92,14 +92,10 @@
 
 
 /*
-Step 5: The "Refactor" (Optimization)
-Once the 3 songs work, look at your code. It’s probably very long.
 
 wire up new leds
 
-Goal: Try to take all that repeated millis() logic and put it into one function that you can call for any song.
-
-Key Learning: Passing variables to functions.
+take all that repeated millis() logic and put it into one function that can be called for any song.
 
 */
 const int button1Pin = A0;
