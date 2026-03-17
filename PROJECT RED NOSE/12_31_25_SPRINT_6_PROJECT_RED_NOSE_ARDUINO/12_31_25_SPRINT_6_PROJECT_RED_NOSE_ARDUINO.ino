@@ -97,7 +97,7 @@
 
 
 /*
-Sprint 6: IR SENSOR
+IR SENSOR
 
 */
 
