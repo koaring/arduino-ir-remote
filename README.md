@@ -81,7 +81,7 @@ EF10BF00
 12/25/25:
 - Objectives:
 	- sprint 5: make it clean and one function for each of the 3 songs and likely future songs
-	- ask gemini, will one function be able to do different timings for different songs? or will separate functions be better?
+	- will one function be able to do different timings for different songs? or will separate functions be better?
 	- add two green leds and two red leds and rgb leds and make light functions or patterns.
 
 Goal: To essentially get to the last project but have one function for song playing.
@@ -117,14 +117,14 @@ code is cleaner got rid redundancy
 
 next time:
 sprint 5: make it clean and one function for each of the 3 songs and likely future songs
-ask gemini, will one function be able to do different timings for different songs? or will separate functions be better?
+will one function be able to do different timings for different songs? or will separate functions be better?
 add two green leds and two red leds and rgb leds and make light functions or patterns.
 
 ---
  
 12/22/25:
 - Objectives:
-	- maybe review step 2+3 like the logic and mistakes and misconceptions i made. look at gemini logs
+	- maybe review step 2+3 like the logic and mistakes and misconceptions i made. look at logs
 	- step 4 add more songs ( make a function for 3 song player)
 		- first, rearrange to have 3 buttons. make it look clean
 		- write set up for buttons, then melodies
@@ -216,8 +216,6 @@ recreate toggle button for led
 	- Implement millis
 	- Troubleshoot for one button
 	- Change for the other two buttons
-
-was able to do it but i used gemini to do most of the work. i understand what hes doing but didn't do critical thinking of my own.
 
 next time
 dont focus on the project for now just learn the concepts
