@@ -140,10 +140,10 @@ int melody1[] = {
 
 
 int durations1[] = {
-  4, 4, 2,   4, 4, 2,   4, 4, 4, 4, 1, // Jingle bells, jingle bells, jingle all the way
-  4, 4, 4, 4, 4,                       // Oh what fun it is to ride
-  4, 4, 4, 4, 4,                       // In a one horse open sleigh, hey!
-  4, 4, 4, 4, 2                                 // (Last two notes)
+  4, 4, 2,   4, 4, 2,   4, 4, 4, 4, 1,
+  4, 4, 4, 4, 4,
+  4, 4, 4, 4, 4,
+  4, 4, 4, 4, 2
 };
 
 int melody2[] = {
@@ -153,10 +153,10 @@ int melody2[] = {
   NOTE_D4, NOTE_E4, NOTE_A4, NOTE_G4, NOTE_G4, NOTE_D5};
 
 int durations2[] = {
-  4, 4, 8, 8, 4, 4, 4, 4,             // We wish you a merry Christmas
-  4, 4, 8, 8, 4, 4, 4, 4,             // We wish you a merry Christmas
-  4, 4, 8, 8, 4, 4, 4, 4,             // We wish you a merry Christmas
-  4, 4, 4, 4, 4, 2                    // And a happy New Year!
+  4, 4, 8, 8, 4, 4, 4, 4,
+  4, 4, 8, 8, 4, 4, 4, 4,         
+  4, 4, 8, 8, 4, 4, 4, 4,
+  4, 4, 4, 4, 4, 2
 };
 
 
@@ -190,7 +190,7 @@ void setColor(int R, int B, int G) {
 }
 
 void setup() {
-  lcd.begin(16, 2); // Set up the number of columns and rows on the LCD.
+  lcd.begin(16, 2);
 
   Serial.begin(9600);
   IrReceiver.begin(irReceiverPin);
@@ -203,9 +203,9 @@ void setup() {
   pinMode(RGB_BLUE_LED, OUTPUT);
   
   pinMode(buzzerPin, OUTPUT);
-  delay(500);             // Give the hardware a moment to stabilize
-  IrReceiver.begin(irReceiverPin); // Re-initialize to be sure
-  IrReceiver.resume();    // Clear any "ghost" signals left in the buffer
+  delay(500);
+  IrReceiver.begin(irReceiverPin);
+  IrReceiver.resume();
   lcd.clear();
   lcd.print("System Ready");
   delay(1000);
