@@ -4,6 +4,7 @@
 
 Goal: Add LCD screen, IR sensor controlled by remote, use millis to be able to interrupt modes of different Christmas songs
 
+Video: https://www.youtube.com/shorts/fgP550ZJg7w
 ---
 
 ## Timeline
