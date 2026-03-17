@@ -92,15 +92,13 @@
 
 
 /*
-Step 4: Multi-Song Management (Structural Foundation)
-Now you add the other buttons.
 
-Goal: 3 Buttons. Each button sets its own "Playing" variable to true and sets the others to false.
-
-Key Learning: This is where you implement stopAllPlayback(). When Button B is pressed, it must reset the noteIndex and lastTime for Song A so it doesn't start in the middle of a note later.
+Multi-song management
+add the other buttons.
+3 Buttons: Each button sets its own playing variable to true and sets the others to false.
 
 */
-//what was the mistake or misconcpetion I made step 2 or 3? Look at gemini logs
+
 const int button1Pin = A0;
 const int button2Pin = A1;
 const int button3Pin = A2;
