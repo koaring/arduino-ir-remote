@@ -95,7 +95,9 @@
 #include <LiquidCrystal.h>
 
 /*
-Sprint 9: Audio and Rhythmn finalizing
+
+Audio and rhythmn finalizing
+
 */
 
 
