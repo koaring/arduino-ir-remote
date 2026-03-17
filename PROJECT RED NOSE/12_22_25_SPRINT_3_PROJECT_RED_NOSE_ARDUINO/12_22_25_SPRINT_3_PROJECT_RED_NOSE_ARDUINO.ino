@@ -92,14 +92,8 @@
 
 
 /*
-Step 3: The Array Reader (Data Foundation)
+
 Instead of one repeated beep, play a sequence.
-
-Goal: Create a small array of 3 notes: {262, 294, 330} (C, D, E).
-
-Key Learning: Every time the "Total Cycle" timer resets, increment a noteIndex variable (noteIndex++). Use that index to pick the frequency: tone(pin, melody[noteIndex]).
-
-Check: Does it play C-D-E and then stop or loop?
 
 */
 
