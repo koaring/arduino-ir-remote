@@ -92,16 +92,7 @@
 
 
 /*
-Step 2: The "Note + Rest" Generator (Timing Foundation)
-Now, modify the "On" state. Instead of a simple blink, create a "musical note."
-
-Goal: When playing is true, the LED and Buzzer should turn ON for 800ms, then BOTH turn OFF for 200ms (the rest), then repeat.
-
-Key Learning: Use two if statements with millis(). One for the Total Cycle (1000ms) and one for the Sound Duration (800ms).
-
-Check: Does the silence between beeps feel consistent?
-
-
+ Use two if statements with millis(). One for the Total Cycle (1000ms) and one for the Sound Duration (800ms).
 */
 
 const int buttonPin = A0;
