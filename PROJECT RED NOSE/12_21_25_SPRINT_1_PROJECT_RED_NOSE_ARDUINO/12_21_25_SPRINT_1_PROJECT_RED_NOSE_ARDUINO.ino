@@ -2,13 +2,7 @@
 
 /*
 
-The "Sprint 1" Setup:
-
-Put one LED and one Button in Tinkercad.
-
-Try to write this specific logic:
-
-If the button is pressed, the LED should start blinking (500ms ON, 500ms OFF).
+If the button is pressed, the LED should start blinking 
 
 If the button is pressed again, the LED must turn OFF instantly.
 
